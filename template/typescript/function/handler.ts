@@ -1,4 +1,4 @@
-export default function(event: FunctionEvent , context: FunctionContext) {
+export default async function(event: FunctionEvent , context: FunctionContext) {
     const result = {
         'status': 'Received input: ' + JSON.stringify(event.body)
       }
