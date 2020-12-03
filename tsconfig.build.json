@@ -1,0 +1,6 @@
+{
+    "extends": "./function/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./function/dist"
+    }
+}
