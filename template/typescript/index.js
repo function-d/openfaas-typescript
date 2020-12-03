@@ -6,7 +6,7 @@
 
 const express = require('express')
 const app = express()
-const handler = require('./function/dist/handler');
+const handler = require('./function/dist/handler').default;
 const bodyParser = require('body-parser')
 
 if (process.env.RAW_BODY === 'true') {
